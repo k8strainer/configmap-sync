@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: ext-checker-config
+  namespace: default
 data:
   TARGET_URL: "http://localhost:80"
   EXTERNAL_URL: "http://kubernetes.io"
