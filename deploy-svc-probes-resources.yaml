@@ -51,7 +51,10 @@ metadata:
     track: production
   annotations:
   ## for Stakater-Reloader-Enablement
-     configmap.reloader.stakater.com/reload: "cm-httpd-conf"
+     ## use specific cm
+     #configmap.reloader.stakater.com/reload: "cm-httpd-conf"   
+     ## autodetect all cm and secrets 
+     configmap.reloader.stakater.com/reload: "auto"
   name: httpd-dep
   namespace: default
 spec:
