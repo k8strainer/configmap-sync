@@ -5,6 +5,6 @@ metadata:
   namespace: default
 data:
   TARGET_URL: "http://localhost:80"
-  EXTERNAL_URL: "https://itc.li"
+  EXTERNAL_URL: "https://google.com"
   #EXTERNAL_URL: "http://kubernetes.io" 
 
