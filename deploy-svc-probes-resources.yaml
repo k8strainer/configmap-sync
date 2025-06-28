@@ -6,6 +6,7 @@ metadata:
     tier: www-frontend
     track: production
   name: httpd-dep
+  namespace: default
 spec:
   port:
     targetPort: 80
@@ -26,6 +27,7 @@ metadata:
     tier: www-frontend
     track: production
   name: httpd-dep
+  namespace: default
 spec:
   #trafficDistribution: PreferClose
   trafficDistribution: # unset, use normal LoadBalancing
@@ -51,6 +53,7 @@ metadata:
   ## for Stakater-Reloader-Enablement
   # configmap.reloader.stakater.com/reload: "cm-httpd-conf"
   name: httpd-dep
+  namespace: default
 spec:
   minReadySeconds: 0
   replicas: 4
