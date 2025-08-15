@@ -1,3 +1,10 @@
 resources:
   - namespace.yaml
+  - deploy-svc-probes-resources.yaml
+  - configmaps/cm-deploy-svc-probes.yaml
+  - configmaps/cm-httpd-conf.yaml
+  - stakater/clusterrole.yaml
+  - stakater/clusterrolebinding.yaml
+  - stakater/deployment.yaml
+  - stakater/serviceaccount.yaml
 
