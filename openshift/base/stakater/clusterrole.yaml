@@ -58,11 +58,8 @@ rules:
     verbs:
       - create
       - patch
-        - apiGroups:
-      - "apps.openshift.io"
-    ## added to avoid dc errors
   - apiGroups:
-    - "apps.openshift.io"
+      - "apps.openshift.io"
     resources:
       - deploymentconfigs
     verbs:
